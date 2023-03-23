@@ -17,3 +17,10 @@ fun Commit.toCommitDomain() : CommitDomain {
         desc = desc
     )
 }
+
+fun CommitDomain.toCommitApi() : Commit {
+    return Commit(
+        id = id,
+        desc = desc
+    )
+}
