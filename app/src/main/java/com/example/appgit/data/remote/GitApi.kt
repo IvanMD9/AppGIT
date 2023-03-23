@@ -1,4 +1,4 @@
-package com.example.appgit.data.local
+package com.example.appgit.data.remote
 
 import com.example.appgit.data.model.Commit
 
