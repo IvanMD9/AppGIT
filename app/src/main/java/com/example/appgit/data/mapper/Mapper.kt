@@ -4,7 +4,7 @@ import com.example.appgit.data.local.CommitEntity
 import com.example.appgit.data.model.Commit
 import com.example.appgit.domain.model.CommitDomain
 
-fun CommitEntity.toCommit() : Commit {
+fun CommitEntity.toCommitApiModel() : Commit {
     return Commit(
         id = id,
         desc = desc
